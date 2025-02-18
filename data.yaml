@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 40
+names: ['A', 'B', 'C', 'D', 'E', 'Eight', 'F', 'Five', 'Four', 'G', 'H', 'Hello', 'I', 'J', 'K', 'L', 'M', 'N', 'NO', 'Nine', 'O', 'OK', 'One', 'P', 'Please', 'Q', 'R', 'S', 'Seven', 'Six', 'T', 'Thank You', 'Three', 'Two', 'U', 'V', 'W', 'X', 'Y', 'Z']
+
+roboflow:
+  workspace: sign-language-83poo
+  project: sign-language-ld01o
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sign-language-83poo/sign-language-ld01o/dataset/1
